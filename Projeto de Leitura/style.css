@@ -1,0 +1,45 @@
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    display: flex;
+}
+nav {
+    background-color:rgb(158, 0, 0);
+    width: 100vw;
+    height: 50px;
+    box-shadow: 0 3px 15px rgb(87, 0, 0);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+}
+nav span {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.left-div {
+    width: 400px;
+    height: 100vh;
+    background-color: rgba(228, 215, 196, 0.636);
+}
+.content {
+    background-color: green;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 50px;
+}
+.content .main-t {
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 50px;
+}
+.right-div {
+    width: 200px;
+    height: 100vh;
+    background-color: rgba(228, 215, 196, 0.636);
+}
